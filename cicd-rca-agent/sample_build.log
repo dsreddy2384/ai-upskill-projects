@@ -1,0 +1,27 @@
+2026-10-02T19:30:11.102Z [INFO] Initializing CI runner runner-us-east-1a-04
+2026-10-02T19:30:12.441Z [INFO] Pulling container image python:3.11-slim...
+2026-10-02T19:30:18.910Z [INFO] Digest: sha256:4a8b1c9e... Status: Image is up to date
+2026-10-02T19:30:20.100Z [INFO] Running: pip install -r requirements.txt
+2026-10-02T19:30:25.300Z [INFO] Installing collected packages: pydantic, fastapi, httpx
+2026-10-02T19:30:30.000Z [INFO] Running: pytest tests/ -v
+2026-10-02T19:30:31.100Z [INFO] tests/test_health.py::test_health_endpoint PASSED [ 25%]
+2026-10-02T19:30:31.250Z [INFO] tests/test_auth.py::test_token_generation PASSED [ 50%]
+2026-10-02T19:30:31.400Z [INFO] tests/test_auth.py::test_token_refresh PASSED [ 75%]
+2026-10-02T19:30:31.850Z [FAIL] tests/test_billing.py::test_process_payment FAILED [100%]
+=================================== FAILURES ===================================
+_____________________________ test_process_payment _____________________________
+
+    def test_process_payment():
+        payload = {"amount": 4999, "currency": "USD"}
+>       result = process_transaction(payload)
+
+tests/test_billing.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+services/billing_service.py:42: in process_transaction
+    token = request_data["gateway_token"]
+E   KeyError: 'gateway_token'
+=========================== short test summary info ============================
+FAILED tests/test_billing.py::test_process_payment - KeyError: 'gateway_token'
+========================= 1 failed, 3 passed in 0.85s ==========================
+2026-10-02T19:30:33.000Z [ERROR] Process completed with exit code 1.
+2026-10-02T19:30:33.100Z [INFO] Cleaning up runner workspace...
