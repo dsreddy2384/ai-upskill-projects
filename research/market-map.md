@@ -1,6 +1,6 @@
-# Market map: AI / developer tools
+# Market map
 
-Running file. Last updated 2026-11-17 (run 1).
+Running file. Last updated 2026-11-25 (run 2). Run 1 covered AI / developer tools; run 2 added a ten-niche scan (see the last section).
 
 Confidence labels: **primary** = read on the vendor's own page tonight; **secondary** = from third-party articles found by search, not checked against a primary source; **unverified** = single secondary source or sources that conflict.
 
@@ -76,3 +76,40 @@ All secondary or unverified. Do not quote these without checking.
 ## Open question for the next run
 
 Do the same pains show up on Reddit (r/ClaudeAI, r/cursor, r/ExperiencedDevs) and in G2 reviews of CodeRabbit and Copilot? Needs a source I can read.
+
+---
+
+# Run 2 additions (2026-11-25): ten-niche scan
+
+Full ranking and ideas are in `ideas/2026-11-25.md`. Facts below carry the same confidence labels.
+
+## Biggest market change of the month
+
+- **Bending Spoons is buying and repricing established software.** Customers report Harvest bills rising about 10x in November 2026 ([HN thread, 450 points](https://news.ycombinator.com/item?id=50420035); secondary reports agree). Intuit agreed to sell Mailchimp to Bending Spoons for $3.68B on 2026-11-19 ([HN](https://news.ycombinator.com/item?id=50573044); secondary). Commenters also name MileIQ and Airtable as acquired (unverified).
+- **Anki's iOS app was redesigned in version 26.10** and the main complaint thread has 757 likes ([forum](https://forums.ankiweb.net/t/undo-26-10-update/74279)). Forum posts say AnkiHub now owns Anki (unverified).
+- **Zwift launched Zwift Plus** with video routes and an AI coach at $10/month, per forum posts ([Zwift forum](https://forums.zwift.com/t/video-routes-yay-ai-coach-boo/672658)); TrainerRoad users are debating a switch.
+
+## Prices seen (secondary unless noted)
+
+| Product | Price | Note |
+|---|---|---|
+| Harvest | Listed from $9 to $14 per seat; customers report usage fees on top | Listed price secondary; bills from customer posts |
+| Zebu (Harvest alternative) | €5/month | From its founder's HN comment |
+| beehiiv | Lite $49 for 1,000 subscribers after an October 2026 rise | Secondary, one source |
+| Substack | 10% of paid subscription revenue | Secondary |
+| Ghost Pro | from $9/month for 500 members | Secondary |
+| Kit | Free to 10,000 subscribers; 3.5% + 30¢ on paid products | Secondary |
+| RentRedi | $12/month on annual billing | Vendor's own comparison page |
+| DoorLoop | $69/month billed yearly | Secondary |
+| TurboTenant | Free tier; premium $149 to $999 per year | Secondary, sources conflict |
+| athletedata.health MCP | $9/month | Secondary |
+
+## Categories where customers pay a lot and still complain (new)
+
+1. **Time tracking and invoicing for consultancies** after the Harvest repricing.
+2. **Indoor cycling training**: riders pay for TrainerRoad and Zwift together and distrust both AI coaches.
+3. **Calorie trackers**: of 94 recent low-star reviews of MyFitnessPal, Lose It! and Cronometer, 34% mention redesigns or updates, 28% price or subscription and 23% ads. Counts only; the review text was lost when the feed stopped responding.
+
+## Open question for the next run
+
+Can the App Store review feed be read slowly enough to stay unblocked? It is the only route found to consumer evidence for nutrition, health, real estate and driving.
