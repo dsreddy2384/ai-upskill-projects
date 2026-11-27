@@ -146,3 +146,35 @@ BiggerPockets forum replies are full of AI-written advice and vendor seeding: se
 ## Open question for the next run
 
 Is the App Store review feed now effectively closed? Tonight it returned one page (MileIQ) and then empty feeds for 7 other apps across 21 slow attempts. If it stays closed, nutrition and health need another consumer source. Candidates: Google Play review pages, or forums such as diabetes communities (untested).
+
+---
+
+# Run 4 additions (2026-11-27): health, gaming, newsletters
+
+Ideas and scores are in `ideas/2026-11-27.md`. Labels: **primary** = read on the vendor's or owner's own page; **secondary** = reported by press or search results; **unverified** = could not open the original.
+
+## What changed
+
+- **Gaming: Steam Next Fest (Oct 19–26, 2026) roughly doubled in size, to 8,000+ demos.** PC Gamer counted 8,011 demos and said that was about double June. Of 4,397 demos listed on SteamDB, 551 carry the "AI Content Disclosed" tag. PC Gamer also reported at least seven Roblox clones of *Escape the Walls* on the first day (all secondary, via search: [PC Gamer](https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/), [PC Gamer](https://pcgamer.com/gaming-industry/steam-next-fests-top-played-games-include-only-1-of-over-500-demos-with-an-ai-disclosure/)).
+- **Gaming: AI clones of indie games are now a standing worry among indie developers.** How To Market A Game (2026-10-28) documents *Needle In A Haystack Simulator* being overtaken by the clone *Find The Needle* (secondary, [HTMAG](https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/)). Valve, at Steam Indie Connect, announced no new AI rules and advised building community and shipping steady updates (secondary, [esports.gg](https://esports.gg/news/valve-indie-devs-ai-clones-updates/); the page refused my fetch). Reports of extortion emails threatening to clone developers' games are **unverified** ([TweakTown](https://www.tweaktown.com/news/114349/valve-responds-to-steam-devs-getting-extortion-emails-threatening-ai-clones-of-their-games/index.html) returned 403).
+- **Gaming: new entrant, Clone Report** (clonereport.com). Free crowd-reported clone database with 188 reported clones and 25,000 verified originals, plus Chrome and Firefox extensions that warn buyers on Steam, PlayStation, Xbox, eShop, App Store, Google Play and itch.io. Moderated by verified industry professionals (primary, read tonight). Funding and owner unknown.
+- **Gaming: itch.io** is extending generative-AI disclosure filtering across its site, and is reported to have deleted "a couple terabytes of AI slop" (secondary: [HN thread](https://news.ycombinator.com/item?id=50353193), [GamesRadar](https://www.gamesradar.com/games/as-steam-struggles-with-clones-itch-io-wipes-out-a-couple-terabytes-of-ai-slop-and-adds-a-crucial-new-filter-to-its-search-function-so-you-can-avoid-ai-altogether/) headline only).
+- **Gaming: Godot community backlash** over ManusAI sponsoring the Godot development fund: a 207-post, 357-like thread this month (primary, [Godot forum](https://forum.godotengine.org/t/147467)). Epic is running a "2026 Epic AI MegaJam" with a $50k headline (secondary, Unreal forum thread title).
+- **Newsletters: Ghost is shipping marketing automation quickly.** Lifecycle triggers for Automations on 2026-11-04 and custom member fields on 2026-11-10 (primary, Ghost changelog posts on [forum.ghost.org](https://forum.ghost.org/t/64182)). A user-reported gap: welcome flows never fire for members created through the Admin API, which includes social sign-in plugins (primary user report, [forum](https://forum.ghost.org/t/64138/1)). Expect Ghost to close it.
+- **Freelancer tools: Harvest's repricing is still pushing users away.** On Mac Power Users, one would-be buyer chose Toggl instead, and an indie competitor, **Zebu** (time tracking and invoicing, Mac app), is picking up former Harvest users; its author is a 15-year Harvest user (primary: author's post on [MPU](https://talk.macpowerusers.com/t/zebu-time-tracking/47955/5); Zebu pricing not checked).
+- **Smart home: SmartThings is ending free personal access tokens on 2026-12-15** and moving API users to paid developer and business plans, according to an email posted by a user (primary user report, [HA forum](https://community.home-assistant.io/t/smartthings-charging-for-api-access-as-of-december-15th-2026/1032782/1); **not verified** with Samsung).
+- **Health: hobbyists are building their own health-data pipes.** This month two new open-source bridges appeared: Health Hook (Apple Health → Home Assistant, MIT licence) and Samsung Health Bridge. Medication-reminder integrations for Home Assistant have active threads of 217 and 103 posts (primary, HA forum). No pricing or funding news found for consumer health tools tonight.
+
+## Growing
+
+- Indie developers holding back demos and playtests for fear of AI clones (GDevelop, Godot and HN, all within 30 days).
+- Home Assistant "Month of WTH" requests from people who want their smart home to be understandable by family members (documentation, per-person notifications, user roles).
+
+## Under pressure
+
+- **Steam Next Fest as a discovery channel**: the press calls it "next-to-worthless" (secondary, FRVR opinion piece).
+- **Harvest and other Bending Spoons products**: "Ah, Bending Spoons, where once great apps go to die." ([MPU](https://talk.macpowerusers.com/t/zebu-time-tracking/47955/2)).
+
+## Open question for the next run
+
+**Where can consumer health complaints be read?** Tonight forum.tudiabetes.org refused access (403), the App Store feed was empty (MyChart, one attempt), and about 60 health and fitness hostnames gave no Discourse answer. The OpenEMR forum is readable but is aimed at clinics. Next run, try: Google Play review pages; patient communities on other forum software (phpBB, XenForo) such as apneaboard.com and cpaptalk; and HN with narrower queries ("my mother's medications", "explanation of benefits").
