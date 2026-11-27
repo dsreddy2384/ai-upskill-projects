@@ -113,3 +113,36 @@ Full ranking and ideas are in `ideas/2026-11-25.md`. Facts below carry the same 
 ## Open question for the next run
 
 Can the App Store review feed be read slowly enough to stay unblocked? It is the only route found to consumer evidence for nutrition, health, real estate and driving.
+
+---
+
+# Run 3 additions (2026-11-26): real estate, driving, nutrition
+
+Ideas and scores are in `ideas/2026-11-26.md`. Confidence labels as above.
+
+## What changed
+
+- **MileIQ (owned by Bending Spoons) has raised its price.** Unlimited is $13.99/month or $11.66/month billed annually ($139.92/yr); the free tier gives 40 drives a month (primary, [mileiq.com/pricing](https://mileiq.com/pricing)). App Store reviewers in November 2026 report earlier annual prices of $49.99 and $89.99 (customer reports). Of MileIQ's 50 most recent US reviews (Nov 9 to Nov 24), 9 mention price. Bending Spoons bought MileIQ in July 2025 (secondary, [Willkie release](https://www.willkie.com/news/2025/07/willkie-advises-bending-spoons-on-acquisition-of-mileiq)). A reported $233M price is **unverified**. This is the second Bending Spoons repricing in the research, after Harvest.
+- **Cheaper mileage alternatives already exist.** TripLog Basic is free and Premium is $59.99/yr (primary, [triplog.net/pricing](https://www.triplog.net/pricing)). Stride and Everlance are also widely used. Prices not checked tonight.
+- **An owner-side property-manager auditing product has appeared.** DoorVault's Knox reads a manager's monthly owner statement and checks rent, fee %, duplicate expenses and net payout. Free for 2 properties, $6/door, Growth $29 (up to 10 doors), Scale $79 (up to 50), Enterprise $149 (primary, [doorvault.app/pricing](https://doorvault.app/pricing)). Launch date and funding unknown (© 2026).
+- **TurboTenant acquired TenantCloud** on 2026-08-18; terms not disclosed (secondary, [LLR Partners](https://llrpartners.com/turbotenant-acquires-tenantcloud-expanding-its-property-management-solution)). Outside the 30-day window but new to this map.
+- **MyFitnessPal owns Cal AI.** The deal closed December 2025 and was announced 2026-03-02 (secondary, [The Next Web](https://thenextweb.com/news/myfitnesspal-acquires-cal-ai-the-viral-calorie-tracking-app-built-by-teens)). Reported Cal AI revenue of $30 to 40M is **unverified**. Cal AI's App Store listing shows about 377K ratings (Apple search API, tonight).
+- **No November 2026 funding news found** for Baselane, Stessa, RentRedi or DoorLoop. DoorLoop's $20M Series A and RentRedi's $12M Series A appear only on undated pages (**unverified** timing).
+
+## Growing
+
+- **Distrust of property managers among out-of-state owners.** Roughly 8 owner-written threads in 30 days in one BiggerPockets forum (my count): unpaid rent, skipped inspections, ignored approval limits.
+- **Owners and small PMs building their own tools with AI**: Jira + MCP, a custom portal, an "agent" that reads statements. People are doing the same for food logging on HN.
+
+## Under pressure
+
+- **MileIQ**: open churn in App Store reviews after the repricing.
+- **Rentec Direct**: one small landlord says it deleted properties they had entered and could not restore them ([BiggerPockets](https://www.biggerpockets.com/forums/52/topics/1320832-under-50-units-what-functionality-do-you-look-for-in-a-pm-software-platform#post_7336923)). Single report.
+
+## Data-quality warning
+
+BiggerPockets forum replies are full of AI-written advice and vendor seeding: several posters say they build tools in the same space. Count only original owner posts as evidence.
+
+## Open question for the next run
+
+Is the App Store review feed now effectively closed? Tonight it returned one page (MileIQ) and then empty feeds for 7 other apps across 21 slow attempts. If it stays closed, nutrition and health need another consumer source. Candidates: Google Play review pages, or forums such as diabetes communities (untested).
