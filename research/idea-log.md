@@ -31,6 +31,8 @@ Never pitch the same idea twice. Check this file before pitching.
 | 2026-11-26 | Chat-style AI food logger | 13/25 | Cal AI (MyFitnessPal), MyFitnessPal, MacroFactor; people build their own in an afternoon |
 | 2026-11-26 | All-in-one software for landlords under 50 units | 15/25 | Stessa, Baselane, RentRedi, TurboTenant, DoorLoop, REI Hub |
 | 2026-11-26 | Vendor COI expiry tracker for small property managers | 15/25 | Only demand came from a vendor; PM software already has it |
+| 2026-11-27 | Idea validation tool for indie founders | not scored | Preuve AI, BigIdeasDB, PainMap, GummySearch, ValidatorAI, IdeaProof and more; founders buy once |
+| 2026-11-27 | "Why does nobody use my app?" report | 17/25 | AI landing-page audits ($0 to $49), Shopify audit apps ($0 to $249), free forum roasts. See ideas/2026-11-27-why-no-users.md |
 
 ## Pain themes seen (count the weeks)
 
